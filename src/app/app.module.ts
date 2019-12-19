@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSelectModule} from '@angular/material/select';
 import {MatIconModule} from '@angular/material/icon';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'; // 添加动画
 
 import 'hammerjs';
 
@@ -22,6 +23,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
 
     MatButtonModule, // 为子组件引入 Material Button
     MatSelectModule, MatIconModule,
